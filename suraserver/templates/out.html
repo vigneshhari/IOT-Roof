@@ -1,0 +1,11 @@
+Node 1<br>
+{% for i in data1 %}
+{{ i.key }} {{ i.val }} {{ i.time }} <br>
+{% endfor %}
+Node 2<br>
+{% for i in data2 %}
+{{ i.key }} {{ i.val }}  {{ i.time }}<br> 
+{% endfor %}
+<a href="/onnode1" > Translate Node 1 </a><br>
+<a href="/onnode2" >Translate Node 2 </a><br>
+<a href="/normal" >Normal</a>
